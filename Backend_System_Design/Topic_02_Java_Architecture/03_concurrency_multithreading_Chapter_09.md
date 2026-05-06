@@ -92,10 +92,10 @@ When the outcome depends on the timing of thread execution.
 ---
 
 ## 8. Summary Checklist
-- [ ] Concurrency is managing tasks; Parallelism is executing tasks.
-- [ ] Use `volatile` for visibility and `Atomic` for simple thread-safe counters.
-- [ ] `ReentrantLock` offers more control than `synchronized`.
-- [ ] Always use `ExecutorService` instead of raw threads.
-- [ ] `CompletableFuture` is for async orchestration.
-- [ ] Virtual Threads (Java 21) are the new standard for scaling I/O-bound apps.
-- [ ] Clean up `ThreadLocal` variables to avoid memory leaks.
+- [x] Concurrency is managing tasks; Parallelism is executing tasks.
+- [x] Use `volatile` for visibility and `Atomic` for simple thread-safe counters.
+- [x] `ReentrantLock` offers more control than `synchronized`.
+- [x] Always use `ExecutorService` instead of raw threads.
+- [x] `CompletableFuture` is for async orchestration.
+- [x] Virtual Threads (Java 21) are the new standard for scaling I/O-bound apps.
+- [x] Clean up `ThreadLocal` variables to avoid memory leaks.

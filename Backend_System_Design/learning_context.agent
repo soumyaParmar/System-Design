@@ -29,12 +29,12 @@
 ### 2. JAVA ARCHITECTURE & CONCEPTS (Current Topic)
 - [x] **JVM Internals (Chapter 07)**
 - [x] **Garbage Collection (Chapter 08)**
-- [ ] **Concurrency & Multithreading (Chapter 09)**
-- [ ] **Collections Framework (Chapter 10)**
-- [ ] **Modern Java Features (Chapter 11)**
+- [x] **Concurrency & Multithreading (Chapter 09)**
+- [x] **Collections Framework (Chapter 10)**
+- [x] **Modern Java Features (Chapter 11)**
 
-### 3. DATABASE CONCEPTS & ARCHITECTURE
-- [ ] **ACID Properties & Transaction Isolation Levels**
+### 3. DATABASE CONCEPTS & ARCHITECTURE (Current Topic)
+- [ ] **ACID Properties & Transaction Isolation Levels (Chapter 12)**
 - [ ] **Indexing Internals (B-Trees, LSM Trees)**
 - [ ] **Replication, Sharding & Partitioning**
 - [ ] **Caching Strategies (Redis, Memcached)**
@@ -52,6 +52,6 @@
 - [ ] **Observability (Logging, Tracing, Metrics)**
 
 ## Current Status
-- Completed: **Module 02, Chapter 08: Garbage Collection**.
-- Starting: **Module 02, Chapter 09: Concurrency & Multithreading**.
-- **Pending Action from Agent:** Explain Concurrency & Multithreading deeply.
+- Completed: **Module 02, Chapter 11: Modern Java Features**.
+- Starting: **Module 03, Chapter 12: ACID Properties & Transaction Isolation Levels**.
+- **Pending Action from Agent:** Explain ACID & Transaction Isolation deeply.
