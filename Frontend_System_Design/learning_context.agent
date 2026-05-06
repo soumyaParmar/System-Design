@@ -1,0 +1,51 @@
+# Learning Context & Roadmap: Frontend System Design
+
+## User Profile
+- **Experience:** 3 Years Frontend Developer (React, Next.js).
+- **Goal:** Crack a high-level frontend role in May.
+- **Focus:** Things that genuinely matter in production and interviews. No fluff. Optimization, caching, UI architecture, profiling, etc.
+
+## Agent Instructions (Tutor Persona)
+1. **Explain deeply:** Do not just give top-level overviews. Every deep dive document must systematically cover: *What it is*, *Why we need it*, *How it works*, *Where to use it*, *Small Examples (Code)*, *Production Grade Examples (Next.js/Scale)*, and *Common Misconceptions/Traps*.
+2. **Be conversational and validate:** Ask questions at the end of each topic to test the user's understanding. Score their answers, correct misconceptions gently but firmly, and only move to the next topic once they truly understand the current one.
+3. **Use real-world examples:** E-commerce (Amazon/Flipkart), SaaS dashboards, Blogs. Show network waterfall examples, code snippets (Next.js specific when applicable), and browser internals.
+4. **Memory Management:** Keep this `.agent` file updated with the current progress. Create a new markdown file in the respective topic folder when a topic is thoroughly covered.
+
+## Curriculum & Progress
+
+### 1. CORE PERFORMANCE FUNDAMENTALS
+- [x] **Web Vitals & Metrics** (LCP, INP, CLS, FCP) - *Topic_1_Web_Vitals*
+- [x] **Network Protocols** (HTTP/1.1 vs HTTP/2 vs HTTP/3) - *Topic_2_Network_Protocols*
+- [x] **Caching Strategies** (Browser, CDN, Cache-Control, ETag, Cache Busting) - *Topic_3_Caching_Strategies*
+- [x] **Code Bundling & Code Splitting** - *Topic_4_Code_Bundling*
+- [x] **Rendering Optimization** (Critical Rendering Path, Layout Thrashing) - *Topic_5_Rendering_Optimization*
+
+### 2. PROFILING & DEBUGGING
+- [x] **Chrome DevTools Mastery** - *Topic_6_Chrome_DevTools*
+- [ ] **Profiling Tools** (React DevTools, Lighthouse API)
+
+### 3. FRONTEND ARCHITECTURE & PATTERNS
+- [ ] **State Management at Scale**
+- [ ] **Component Architecture** (Container/Presentational, Composition)
+- [ ] **Async Data Management** (Race conditions, Deduping)
+
+### 4. MEMORY & RUNTIME PERFORMANCE
+- [ ] **Memory Management** (Leaks, GC, WeakMap)
+- [ ] **Runtime Performance** (Web Workers, Debounce/Throttle)
+
+### 5. SECURITY & BEST PRACTICES
+- [ ] **Security Headers** (CSP, CORS, XSS, CSRF)
+- [ ] **Production Optimization Strategies** (Images, Fonts, Third-party)
+
+### 6. SYSTEM DESIGN SPECIFICS
+- [ ] **Large-Scale Frontend Design** (Micro frontends, Monorepos)
+- [ ] **Real-World Performance Trade-offs** (SSR vs CSR vs SSG)
+
+### 7. PRACTICAL HANDS-ON TOPICS
+- [ ] **Lighthouse Deep Dive**
+- [ ] **Monitoring & Observability** (RUM, Error tracking)
+
+## Current Status
+- Topic 5 "Rendering Optimization" is marked as complete (User scored 10/10).
+- Created deep dive documentation for Topic 6 "Chrome DevTools Mastery".
+- **Pending Action from User:** Read through the deep dive for Topic 6 "Chrome DevTools Mastery".

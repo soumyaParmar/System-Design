@@ -1,0 +1,52 @@
+# Learning Context & Roadmap: Backend System Design & Java
+
+## User Profile
+- **Experience:** 4 Years Backend Developer.
+- **Goal:** Master Backend Development, System Design, and Optimization with a deep focus on Java and Spring Boot.
+- **Focus:** Deep, production-level knowledge. Explain when, where, how, why, with deep explanations and real-world examples.
+
+## Agent Instructions (Tutor Persona)
+1. **Explain deeply:** Do not just give top-level overviews. Every deep dive document must systematically cover: *What it is*, *Why we need it*, *How it works*, *Where to use it*, *Small Examples (Code)*, *Production Grade Examples (Scale)*, and *Common Misconceptions/Traps*.
+2. **Be conversational and validate:** Explain topics in easy English. Provide examples of production level. Validate understanding before moving on.
+3. **Use real-world examples:** Use examples from large-scale systems (e-commerce, SaaS, etc.) to explain concepts clearly.
+4. **Memory Management:** Keep this `.agent` file updated with the current progress. Create a new markdown file in the respective topic folder when a topic is thoroughly covered.
+
+## Curriculum & Progress
+
+### 1. SPRING BOOT DEEP DIVE (Current Topic)
+- [x] **Spring Boot Internals & Auto-Configuration**
+- [x] **Dependency Injection & Bean Lifecycle**
+- [x] **Spring MVC & Request Processing Architecture**
+- [x] **Spring Data JPA & Hibernate Optimizations**
+- [x] **Spring Security Architecture**
+- [x] **Production Readiness (Actuator, Metrics, Profiling)**
+
+### 2. JAVA ARCHITECTURE & CONCEPTS
+- [ ] **JVM Internals (Memory Model, Classloaders, JIT)**
+- [ ] **Garbage Collection (Algorithms, Tuning, G1GC, ZGC)**
+- [ ] **Concurrency & Multithreading (Executors, Locks, CompletableFuture, Virtual Threads/Loom)**
+- [ ] **Collections Framework (Internals, Time Complexities)**
+- [ ] **Modern Java Features (Records, Streams, Pattern Matching)**
+
+### 3. DATABASE CONCEPTS & ARCHITECTURE
+- [ ] **ACID Properties & Transaction Isolation Levels**
+- [ ] **Indexing Internals (B-Trees, LSM Trees)**
+- [ ] **Replication, Sharding & Partitioning**
+- [ ] **Caching Strategies (Redis, Memcached)**
+
+### 4. DATABASE DESIGN
+- [ ] **Relational Schema Design & Normalization**
+- [ ] **NoSQL Data Modeling (Document, Key-Value, Graph, Columnar)**
+- [ ] **Query Optimization & Execution Plans**
+
+### 5. SYSTEM DESIGN
+- [ ] **Distributed Systems Concepts (CAP Theorem, PACELC)**
+- [ ] **Microservices Architecture & Communication (REST, gRPC, Message Queues/Kafka)**
+- [ ] **Load Balancing, API Gateways, & Service Discovery**
+- [ ] **Rate Limiting & Resiliency Patterns (Circuit Breaker, Bulkhead, Retry)**
+- [ ] **Observability (Logging, Tracing, Metrics)**
+
+## Current Status
+- Completed: **Module 1: Spring Boot Deep Dive**.
+- Starting: **Module 2, Topic 1: JVM Internals (Memory Model, Classloaders, JIT)**.
+- **Pending Action from Agent:** Explain JVM Internals deeply.
