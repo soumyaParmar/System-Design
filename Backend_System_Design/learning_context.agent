@@ -11,22 +11,27 @@
 3. **Use real-world examples:** Use examples from large-scale systems (e-commerce, SaaS, etc.) to explain concepts clearly.
 4. **Memory Management:** Keep this `.agent` file updated with the current progress. Create a new markdown file in the respective topic folder when a topic is thoroughly covered.
 
+
+## Naming Convention
+- **Folders:** Prefixed with `Topic_XX_` (e.g., `Topic_01_`) for consistent sorting.
+- **Files:** Named as `XX_topic_name_Chapter_XX.md` (e.g., `01_jvm_internals_Chapter_07.md`) to maintain local sorting and global chapter reference.
+
 ## Curriculum & Progress
 
-### 1. SPRING BOOT DEEP DIVE (Current Topic)
-- [x] **Spring Boot Internals & Auto-Configuration**
-- [x] **Dependency Injection & Bean Lifecycle**
-- [x] **Spring MVC & Request Processing Architecture**
-- [x] **Spring Data JPA & Hibernate Optimizations**
-- [x] **Spring Security Architecture**
-- [x] **Production Readiness (Actuator, Metrics, Profiling)**
+### 1. SPRING BOOT DEEP DIVE
+- [x] **Spring Boot Internals (Chapter 01)**
+- [x] **Dependency Injection & Lifecycle (Chapter 02)**
+- [x] **Spring MVC Architecture (Chapter 03)**
+- [x] **Data JPA & Hibernate (Chapter 04)**
+- [x] **Spring Security Architecture (Chapter 05)**
+- [x] **Production Readiness (Chapter 06)**
 
-### 2. JAVA ARCHITECTURE & CONCEPTS
-- [ ] **JVM Internals (Memory Model, Classloaders, JIT)**
-- [ ] **Garbage Collection (Algorithms, Tuning, G1GC, ZGC)**
-- [ ] **Concurrency & Multithreading (Executors, Locks, CompletableFuture, Virtual Threads/Loom)**
-- [ ] **Collections Framework (Internals, Time Complexities)**
-- [ ] **Modern Java Features (Records, Streams, Pattern Matching)**
+### 2. JAVA ARCHITECTURE & CONCEPTS (Current Topic)
+- [x] **JVM Internals (Chapter 07)**
+- [x] **Garbage Collection (Chapter 08)**
+- [ ] **Concurrency & Multithreading (Chapter 09)**
+- [ ] **Collections Framework (Chapter 10)**
+- [ ] **Modern Java Features (Chapter 11)**
 
 ### 3. DATABASE CONCEPTS & ARCHITECTURE
 - [ ] **ACID Properties & Transaction Isolation Levels**
@@ -47,6 +52,6 @@
 - [ ] **Observability (Logging, Tracing, Metrics)**
 
 ## Current Status
-- Completed: **Module 1: Spring Boot Deep Dive**.
-- Starting: **Module 2, Topic 1: JVM Internals (Memory Model, Classloaders, JIT)**.
-- **Pending Action from Agent:** Explain JVM Internals deeply.
+- Completed: **Module 02, Chapter 08: Garbage Collection**.
+- Starting: **Module 02, Chapter 09: Concurrency & Multithreading**.
+- **Pending Action from Agent:** Explain Concurrency & Multithreading deeply.
